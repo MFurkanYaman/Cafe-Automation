@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 //Metin Furkan YAMAN 21100011010
-//Hocam realloc kýsmýndaki sorunu çözdüm hatasýz çalýþýyor.
 
 typedef struct musteri_abone
 {
@@ -296,7 +295,7 @@ void sil()
 
     int no,i,kullaniciid,*silineninadresi,*yerinegeleninadresi;
     char adsoyadlasilme[80];
-    printf("Silmek istediginiz musterinin sirasini giriniz(2. musteri ise 2'i tuslayiniz) giriniz==>");//Hocam burdaki hatayý çözemedim sadece sonuncu musteriyi siliyor
+    printf("Silmek istediginiz musterinin sirasini giriniz(2. musteri ise 2'i tuslayiniz) giriniz==>");//Hocam burdaki hatayÄ± Ã§Ã¶zemedim sadece sonuncu musteriyi siliyor
     scanf("%d",&no);
     i=no;
 
